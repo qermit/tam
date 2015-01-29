@@ -8,6 +8,6 @@ class ApplicationController < ActionController::Base
   end
 
   def test
-    redirect_to "http://www.plemiona.pl/external_auth.php?sid=pl3898d3137003b6170912cec3c6a69829&client=tws"
+    redirect_to "https://www.plemiona.pl/external_auth.php?sid=pl3898d3137003b6170912cec3c6a69829&client=tws"
   end
 end
